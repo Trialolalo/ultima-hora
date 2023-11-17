@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+main{
+width: 80%;
+}
+
+section{
+    flex-wrap: wrap;
+}
+
+.top-bar{
+    -ms-flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 81%);
+}
+
+.today-news{
+    justify-content: flex-start
+}
+
+.local-news{
+    justify-content: flex-end;
+}
+
+.main-bar{
+    -ms-flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 81%);
+}
+
+.burger-menu{
+
+}
+
+.logo{
+   
+}
+
+.user-area{
+    justify-content: flex-end;
+}
+
+.sign-in{
+
+}
+
+h4{
+
+}
+
+.register{
+
+}
+
+.header-menu{
+    -ms-flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.one-column{
+
+}
+
+.news-image{
+
+}
+
+.news-category .highlighted{
+    color: crimson;
+}
+
+.two-column{
+    -ms-flex-direction: row;
+    
+}
+
+.news-image{
+
+}
+
+.news-category{
+    background-color: hsl(0, 0%, 81%);
+}
+
+.news-author{
+
+}
+
+.news-realted-content{
+
+}
+
+.square-ad{
+
+}
+
+.three-column{
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.news-category .highlighted-blue{
+    color: aqua;
+}
+
+.branded-content{
+
+}
+
+section{
+
+}
+
+.section-title{
+
+}
+
+.four-column{
+    -ms-flex-direction: row;
+}
+
