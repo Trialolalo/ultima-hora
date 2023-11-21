@@ -143,15 +143,24 @@ section{
     width: 1rem;
 }
 
-.one-column{
-    display: flex;
-    flex-wrap: wrap;
+main{
+    width: 100%;
     justify-content: center;
     box-sizing: border-box;
-    margin-right: -15px;
-    margin-left: -15px;
+}
+
+.square-ad{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.one-column{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     margin-top: 0.75rem;
-    width: 80%; 
+    width: 100%; 
    }
 
 article{
@@ -169,8 +178,7 @@ p{
 }
 
 .news-image{
-
-
+    width: 100%;
 }
 
 .news-category.highlighted nav{
@@ -185,13 +193,17 @@ p{
 
 .two-column{
     display: flex;
-    margin-right: -15px;
-    margin-left: 7rem;
+    justify-content: center;
+    box-sizing: border-box;
     margin-top: 0.75rem;
-    width: 50%;  
-    flex-grow: 1;   
-    flex-basis: 0;
+    width: 40%;  
     gap: 1.5rem;
+}
+
+section .rectangular-ad{
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .news-category {
@@ -224,14 +236,21 @@ p{
 }
 
 .square-ad{
+    display: flex;
+    justify-content: flex-end;
+}
 
+.rectangular-ad{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .three-column{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     box-sizing: border-box;
+    gap: 2rem;
 }
 
 .news-category.highlighted-blue nav{
