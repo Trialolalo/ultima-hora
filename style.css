@@ -3,21 +3,16 @@
     padding: 0;
 }
 
+main{
+
+}
+
 body{
-    background-color: white;
-    
+    justify-content: center;
 }
 
 header{
     width: 100%;
-    }
-
-main{
-    width: 100%;
-}
-
-section{
-    flex-wrap: wrap;
 }
 
 .top-bar{
@@ -25,11 +20,7 @@ section{
     justify-content: space-between;
     background-color: hsl(0, 0%, 90%);
     padding: 0.2rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    
 }
-
 
 .today-news ul{
     display: flex;
@@ -59,8 +50,6 @@ section{
     padding: 1rem;
     background-color: hsl(0, 100%, 40%);
     align-items: center;
-    padding-left: 7rem;
-    padding-right: 7rem;
 }
 
 .burger-menu svg{
@@ -115,7 +104,6 @@ section{
 
 .header-menu{
     margin-top: 0.3rem;
-    
 }
 
 .header-menu ul{
@@ -126,8 +114,6 @@ section{
     justify-content: space-between;
     border-bottom: solid 2px hsl(0, 0%, 80%);
     background-color: hsl(0, 0%, 90%);
-    padding-left: 7rem;
-    padding-right: 7rem;
 }
 
 .header-menu li{
@@ -143,25 +129,22 @@ section{
     width: 1rem;
 }
 
-main{
-    width: 100%;
-    justify-content: center;
-    box-sizing: border-box;
+.container{
+    width: 80%;
+    padding: 0 7.5rem;
 }
 
 .square-ad{
-    display: flex;
-    justify-content: center;
     margin-left: 2rem;
+    position: sticky;
+    top: 10px;
 }
 
 .one-column{
     display: flex;
-    justify-content: center;
-    box-sizing: border-box;
     margin-top: 0.75rem;
-    width: 100%; 
-   }
+    flex: 1;
+}
 
 article{
     box-sizing: border-box;
@@ -170,15 +153,16 @@ article{
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin-bottom: 0.25rem;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin-bottom: 0.25rem;
 }
 
 .news-image{
-    width: 100%;
 }
 
 .news-category.highlighted nav{
@@ -188,22 +172,23 @@ p{
     text-transform: uppercase;
     font-size: .85rem;
     line-height: 1.1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
 }
 
 .two-column{
     display: flex;
-    justify-content: center;
     box-sizing: border-box;
-    margin-top: 0.75rem;
-    width: 40%;  
-    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+    width: 50%;
+    flex: 2;
 }
 
-section .rectangular-ad{
-    display: flex;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.rectangular-ad{
+    position: sticky;
+    top: 10px;
 }
 
 .news-category {
@@ -213,7 +198,7 @@ section .rectangular-ad{
     text-transform: uppercase;
     font-size: .85rem;
     line-height: 1.1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
 }
 
 .news-author{
@@ -223,34 +208,34 @@ section .rectangular-ad{
     text-transform: uppercase;
     font-size: .85rem;
     line-height: 1.1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
 }
 
 .news-related-content{
     color: hsl(0, 0%, 20%);
     font-family: Georgia,Times,"Times New Roman",serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: .85rem;
-    line-height: 1.35rem;
-    margin-bottom: 0;
+    line-height: 1.1rem;
+    margin-bottom: 0.25rem;
 }
 
-.square-ad{
-    display: flex;
-    justify-content: flex-end;
+.news-related-content ul{
+    list-style-type: square;
+    fill: red;
 }
 
-.rectangular-ad{
-    display: flex;
-    justify-content: flex-start;
+.sub-section{
+    display: flex;    
+    justify-content: center;
+    gap: 2rem
 }
 
 .three-column{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    box-sizing: border-box;
+    justify-content: space-between;
     gap: 2rem;
+    flex: 3;
 }
 
 .news-category.highlighted-blue nav{
@@ -264,20 +249,18 @@ section .rectangular-ad{
 }
 
 .branded-content{
-
-}
-
-section{
-
+    background-color: hsla(216, 100%, 90%, 0.425);
 }
 
 .section-title{
-
+    font-family: "Roboto Condensed",sans-serif;
+    text-align: center;
 }
 
 .four-column{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     box-sizing: border-box;
+    gap: 1rem;
 }
 
